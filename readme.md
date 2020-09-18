@@ -45,7 +45,7 @@ sudo pacman -S python
 ```
 
 # Presentación
-La presentación esta hecha con Marp, podeis seguirla desde cualquier navegador.
+La presentación esta hecha con Marp, podeis seguirla desde cualquier navegador, abriendo el archivo 'slides/index.html'. Tambien hay una versión en pdf en la misma carpeta.
 
 # Game of Life
 La actividad que hemos pensado para este taller, es pediros que programeis la lógica del Juego de la Vida de Conway:
@@ -53,7 +53,11 @@ https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules
 Para ello, teneis tres archivos en la carpeta 'code':
 Archivo | Descripción
 ------- | -----------
-\_\_main__.py | Es el archivo que debeis ejecutar cuando querais probar vuestro programa, en teoría no deberíais necesitar modificarlo.
+\_\_main\_\_.py | Es el archivo que debeis ejecutar cuando querais probar vuestro programa, en teoría no deberíais necesitar modificarlo.
 gui.py | Es la implementación de la pequeña interfaz gráfica que os damos para que podaís ver lo que está haciendo vuestro código. Podeis verlo si quereis, pero no es mi código más limpio. :S
 game.py | Este es vuestro archivo. El que teneis que editar.
 
+La actividad consiste en escribir una función en 'game.py' llamada 'next_step' que reciva como parametro uno de los sigientes:
+- Una matriz de 1s y 0s con 20 filas y 20 columnas representando las celulas vivas y muertas.
+- Un set de tuplas con las coordenadas de las celulas activas.
+Y devuelva la matriz o set correspondiente, si pasase un ciclo del juego.
