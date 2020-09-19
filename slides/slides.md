@@ -3,6 +3,18 @@ theme: default
 paginate: true
 ---
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600&display=swap');
+h1 {
+    position: absolute !important;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.4em;
+    top: 6%;
+    left: 6%;
+}
+</style> 
+
+
 ![bg fit](./img/banner.svg)
 
 ---
@@ -21,40 +33,108 @@ https://github.com/aafrecct/python-sig-intro
 
 # Instalación
 
-La forma de instalar python, varía dependiendo del sistema operativo. Teneis las instrucciones en el README.
+La forma de instalar Python, varía dependiendo del sistema operativo. Teneis las instrucciones en el README.
 
-A veces en Windows, python no se añade al PATH. ¡Decidlo!
+A veces en Windows, Python no se añade al PATH. Una vez instalado, intendad ejecutar "python" desde la consola de comandos o PowerShell. Si os da un error, o se os abre la tienda de Windows, ¡decidlo!
 
 ---
 
 # Interprete
 
+"A los profesores de programación no les va a compilar el código en Python" -- S.Eibe
 
+Entre otras cosas, porque la implementación principal de Python es interpretada, no compilada (Aunque depende de a quien le preguntes).
+
+Esto significa que lee el código "linea a linea" y lo va ejecutando, en vez de compilarlo a código máquina una vez y juego ejecutar ese código máquina.
+
+---
+
+# Tipos
+
+![](./img/types.svg)
 
 ---
 
 # Hello World
+
 ![](./img/if-world.svg) 
 
 ---
 
 # Listas
-![bg fit](./img/for-world.svg) 
+
+![](./img/for-world.svg) 
+
+---
+
+# Listas por comprehension
+
+![](./img/list-comp.svg) 
+
+---
+
+# Represtación de matrizes
+![](./img/matrix.svg)
 
 ---
 
 # Diccionarios
 
+![](./img/dict-games.svg) 
+
 ---
 
 # Tuplas
+
+![](./img/tuples-gens.svg) 
 
 ---
 
 # Sets
 
+![](./img/sets-linebreaks.svg) 
+
+---
+
+# Funciones
+![](./img/functions.svg)
+
+---
+
+# PIP pip
+
+![](./img/pip.svg)
+
 ---
 
 # El juego de la vida
 
+Es un juego de simulación, que consiste de una cuadricula, con celulas "vivas" y celulas "muertas".
+Se establecen unas normas para que nazcan, vivan y mueran según pasan "turnos" y luego podemos ver como reaccionan distintas formas y estructuras dentro del juego.
+
+Las reglas que teneis que implementar son las siguientes:
+
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules
+
 ---
+
+# El juego de la vida
+
+En la carpeta 'code' teneis tres archivos, queremos que escribais la función 'next_step' que hay dentro del archivo 'game.py'. Podeis definir otras funciones, variables, lo que querais.
+
+Necesitamos que next_step reciba como parametro o una matriz o un set de coordenadas, aplique las reglas del juego y luego lo devuelva.
+
+Las reglas que teneis que implementar son las siguientes:
+
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules
+
+---
+
+# Contacto
+
+Si no habeis terminado con el juego y quereis que alguien lo mire, podeis mandarmelo por:
+
+Telegram: @bmcaos
+Email: bmartinenac+intropy@gmail.com
+
+¡¡¡Y unios todos a ACM!!! 

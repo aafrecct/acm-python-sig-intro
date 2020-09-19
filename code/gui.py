@@ -59,11 +59,11 @@ def main(get_cells):
                 if event.__dict__['unicode'] in add:
                     cell_offset = [cell_offset[i] + add[event.__dict__['unicode']][i] for i in [0, 1]]
                 elif event.__dict__['unicode'] == 'n' and not play:
-                    cells = get_cells(cells)
+                    get_cells(cells)
                 elif event.__dict__['unicode'] == 'p':
                     play = not play 
         if play:
-            cells = get_cells(cells)
+            get_cells(cells)
             wait(0.6)
         screen.fill((50, 50, 50))
         draw_grid(screen, start_x, start_y, game_width, game_height, cell_size)

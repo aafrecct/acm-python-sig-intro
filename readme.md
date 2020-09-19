@@ -71,7 +71,8 @@ Archivo | Descripción
 gui.py | Es la implementación de la pequeña interfaz gráfica que os damos para que podaís ver lo que está haciendo vuestro código. Podeis verlo si quereis, pero no es mi código más limpio. :S
 game.py | Este es vuestro archivo. El que teneis que editar.
 
-La actividad consiste en escribir una función en 'game.py' llamada 'next_step' que reciva como parametro uno de los sigientes:
+La actividad consiste en escribir una función en 'game.py' llamada 'next_step' que reciba como parametro uno de los sigientes:
 - Una matriz de 1s y 0s con 20 filas y 20 columnas representando las celulas vivas y muertas.
 - Un set de tuplas con las coordenadas de las celulas activas.
-Y devuelva la matriz o set correspondiente, si pasase un ciclo del juego.
+
+Y aplique sobre ese parametro las reglas del juego.
