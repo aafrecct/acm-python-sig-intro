@@ -39,7 +39,7 @@ A veces en Windows, Python no se añade al PATH. Una vez instalado, intentad eje
 
 ---
 
-# Interprete
+# Intérprete
 
 "A los profesores de programación no les va a compilar el código en Python" -- S.Eibe
 
@@ -67,7 +67,7 @@ Esto significa que lee el código "línea a línea" y lo va ejecutando, en vez d
 
 ---
 
-# Listas por comprehension
+# Listas por comprehensión
 
 ![](./img/list-comp.svg) 
 

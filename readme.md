@@ -30,7 +30,7 @@ Este es un poco más difícil de recomendar, Emacs es más complicado que los do
 
 https://www.gnu.org/software/emacs/
 
-### Vim / NeoVim (Forgis)
+### Vim / NeoVim ([@FORGIS98](https://github.com/FORGIS98 "Pagina de usuario de FORGIS98"))
 Odiado por muchos y amado por otros. Es complicado (al igual que Emacs) pero a diferencia de este requiere de unas horas (o días) de práctica antes de tener cierta soltura al programar. Sin embargo, las horas invertidas previamente, desbloquean un poder inigualable. ¿Vim o NeoVim? En pocas palabras, NeoVim tiene el mismo corazón (código) que Vim, pero con añadidos potentes que lo han hecho crecer rápidamente entre los amantes de Vim.
 
 https://neovim.io/    |    https://www.vim.org/
