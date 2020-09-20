@@ -45,7 +45,7 @@ A veces en Windows, Python no se añade al PATH. Una vez instalado, intentad eje
 
 Entre otras cosas, porque la implementación principal de Python es interpretada, no compilada (Aunque depende de a quien le preguntes).
 
-Esto significa que lee el código "linea a linea" y lo va ejecutando, en vez de compilarlo a código máquina una vez y juego ejecutar ese código máquina.
+Esto significa que lee el código "línea a línea" y lo va ejecutando, en vez de compilarlo a código máquina una vez y luego ejecutar ese código máquina.
 
 ---
 
