@@ -73,7 +73,7 @@ Esto significa que lee el código "línea a línea" y lo va ejecutando, en vez d
 
 ---
 
-# Represtación de matrizes
+# Representación de matrices
 ![](./img/matrix.svg)
 
 ---
