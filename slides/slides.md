@@ -23,9 +23,9 @@ h1 {
 
 Este taller tiene un repositorio en Github.
 
-Aunque probablemente no hayais usado Git nunca, ¡os recomendamos que os familiariceis con esta herramienta!
+Aunque probablemente no hayáis usado Git nunca, ¡os recomendamos que os familiaricéis con esta herramienta!
 
-Si no quereis podeis descargar el repositorio en un zip.
+Si no queréis podéis descargar el repositorio en un zip.
 
 https://github.com/aafrecct/python-sig-intro
 
@@ -33,9 +33,9 @@ https://github.com/aafrecct/python-sig-intro
 
 # Instalación
 
-La forma de instalar Python, varía dependiendo del sistema operativo. Teneis las instrucciones en el README.
+La forma de instalar Python, varía dependiendo del sistema operativo. Tenéis las instrucciones en el README.
 
-A veces en Windows, Python no se añade al PATH. Una vez instalado, intendad ejecutar "python" desde la consola de comandos o PowerShell. Si os da un error, o se os abre la tienda de Windows, ¡decidlo!
+A veces en Windows, Python no se añade al PATH. Una vez instalado, intentad ejecutar "python" desde la consola de comandos o PowerShell. Si os da un error, o se os abre la tienda de Windows, ¡decidlo!
 
 ---
 
@@ -45,7 +45,7 @@ A veces en Windows, Python no se añade al PATH. Una vez instalado, intendad eje
 
 Entre otras cosas, porque la implementación principal de Python es interpretada, no compilada (Aunque depende de a quien le preguntes).
 
-Esto significa que lee el código "linea a linea" y lo va ejecutando, en vez de compilarlo a código máquina una vez y juego ejecutar ese código máquina.
+Esto significa que lee el código "línea a línea" y lo va ejecutando, en vez de compilarlo a código máquina una vez y luego ejecutar ese código máquina.
 
 ---
 
@@ -109,10 +109,10 @@ Esto significa que lee el código "linea a linea" y lo va ejecutando, en vez de 
 
 # El juego de la vida
 
-Es un juego de simulación, que consiste de una cuadricula, con celulas "vivas" y celulas "muertas".
+Es un juego de simulación, que consiste de una cuadricula, con células "vivas" y células "muertas".
 Se establecen unas normas para que nazcan, vivan y mueran según pasan "turnos" y luego podemos ver como reaccionan distintas formas y estructuras dentro del juego.
 
-Las reglas que teneis que implementar son las siguientes:
+Las reglas que tenéis que implementar son las siguientes:
 
 https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules
 
@@ -120,11 +120,11 @@ https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules
 
 # El juego de la vida
 
-En la carpeta 'code' teneis tres archivos, queremos que escribais la función 'next_step' que hay dentro del archivo 'game.py'. Podeis definir otras funciones, variables, lo que querais.
+En la carpeta 'code' tenéis tres archivos, queremos que escribais la función 'next_step' que hay dentro del archivo 'game.py'. Podéis definir otras funciones, variables, lo que queráis.
 
-Necesitamos que next_step reciba como parametro o una matriz o un set de coordenadas, aplique las reglas del juego y luego lo devuelva.
+Necesitamos que next_step reciba como parámetro o una matriz o un set de coordenadas, aplique las reglas del juego y luego lo devuelva.
 
-Las reglas que teneis que implementar son las siguientes:
+Las reglas que tenéis que implementar son las siguientes:
 
 https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules
 
@@ -132,9 +132,9 @@ https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules
 
 # Contacto
 
-Si no habeis terminado con el juego y quereis que alguien lo mire, podeis mandarmelo por:
+Si no habéis terminado con el juego y quereis que alguien lo mire, podéis mandármelo por:
 
 Telegram: @bmcaos
 Email: bmartinenac+intropy@gmail.com
 
-¡¡¡Y unios todos a ACM!!! 
+¡¡¡Y uníos todos a ACM!!! 
