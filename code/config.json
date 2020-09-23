@@ -1,0 +1,10 @@
+{
+    "mode": "set",
+    "cell_columns": 20,
+    "cell_rows": 20,
+    "cell_size": 16,
+    "grid_width": 1,
+    "background_color": [14, 8, 36],
+    "grid_color": [34, 22, 64],
+    "cell_color": [255, 205, 41]
+}

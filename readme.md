@@ -85,6 +85,7 @@ Archivo | Descripción
 ------- | -----------
 \_\_main\_\_.py | Es el archivo que debéis ejecutar cuando queréis probar vuestro programa, en teoría no deberíais necesitar modificarlo.
 gui.py | Es la implementación de la pequeña interfaz gráfica que os damos para que podáis ver lo que está haciendo vuestro código. Podéis verlo si queréis, pero no es mi código más limpio. :S
+config.json | Aqui estan las opciones del programa. La mayoria son colores y tamaños, pero la primera es importante. Escribir "mode": "matrix" si vais a trabajar con una matriz y "mode": "set" si vais a trabajar con un set.
 game.py | Este es vuestro archivo. El que tenéis que editar.
 
 La actividad consiste en escribir una función en 'game.py' llamada 'next_step' que reciba como parámetro uno de los siguientes:
