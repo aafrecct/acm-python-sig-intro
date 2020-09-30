@@ -13,25 +13,26 @@ https://git-scm.com/
 
 
 # Editor de Texto
-Para seguir la practica sin dificultades, es necesario tener un editor de texto plano instalado. Yo estoy acostumbrandome a usar Vim para la mayoría de cosas, porque me gusta, pero no es la herramienta más intuitiva si apenas estáis empezando. Si queréis herramientas de calidad que probablemente podais usar durante toda la carrera estas son mis recomendaciones:
+*Como la gente de ACM es en su totalidad una manada de lobos feroces y tengo miedo de que en una de estas me coman un brazo o me arranquen la cabeza, esta sección esta editada para ser más corta, no mostrar ninguna preferencia entre Vim y Emacs, e incluir algún IDE de Python. A todo el mundo que ha hecho algún comentario: Os odio con todo mi ser.*
+Para seguir la practica sin dificultades, es necesario tener un editor de texto plano instalado o un IDE para Python.
 
-### Atom
-Atom es un editor de texto muy fácil de usar que permite mucha personalización y tiene tropecientas extensiones. Sus puntos fuertes tienen el mismo origen que sus puntos débiles: Esta hecho con Electron, es decir en realidad toda su interfaz es una pagina web. Esto significa que puede ser muy bonito, pero en lineas generales, tarda bastante en iniciarse. Para mí, esto nunca ha sido un problema. Podéis descargarlo aquí:
+**Atom:** Facil, extensible, bonito, lento.
 
 https://atom.io/
 
-### VS Code
-Se ha hecho muy popular recientemente, también esta hecho sobre Electron. Nunca lo he usado, pero la poca gente te que he visto que lo usa está contenta. Yo le veo más o menos las mismas ventajas y desventajas que a Atom.
+**VS Code**: Facil, extensible, no lo he usado nunca, lento, has de sacrificar a tu primer hijo a Bill Gates para usarlo.
 
 https://code.visualstudio.com/
 
-### Emacs
-Este es un poco más difícil de recomendar, Emacs es más complicado que los dos anteriores, pero se inicia claramente más rápido. La mayoría de mis compañeros en ACM están enamorados de Emacs. Lo cierto es que una vez le coges cariño no hay nada que Emacs no pueda hacer, pero de primeras es el más feo y duro hasta ahora.
+**PyCharm**(IDE): Yo empezé con PyCharm, me apaño muy bien con su debugger, solo te vale para Python.
+
+https://www.jetbrains.com/pycharm/
+
+**Emacs**: Mimimimi, Emacs es lo mejor, mimimimi.
 
 https://www.gnu.org/software/emacs/
 
-### Vim / NeoVim ([@FORGIS98](https://github.com/FORGIS98 "Pagina de usuario de FORGIS98"))
-Odiado por muchos y amado por otros. Es complicado (al igual que Emacs) pero a diferencia de este requiere de unas horas (o días) de práctica antes de tener cierta soltura al programar. Sin embargo, las horas invertidas previamente, desbloquean un poder inigualable. ¿Vim o NeoVim? En pocas palabras, NeoVim tiene el mismo corazón (código) que Vim, pero con añadidos potentes que lo han hecho crecer rápidamente entre los amantes de Vim.
+**Vim / NeoVim**: Mimimimi, no quiero que mi editor de texto sea tb un sistema operativo entero.
 
 https://neovim.io/    |    https://www.vim.org/
 
