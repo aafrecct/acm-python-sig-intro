@@ -107,7 +107,11 @@ def main(get_cells):
             elif event.type == pygame.MOUSEBUTTONDOWN and not play:
                 # Add active cells if clicked.
                 pos = list(event.__dict__['pos'])
-                cells.add(get_cell_number(pos, [start_x, start_y], cell_size))
+                cell_n = get_cell_number(pos, [start_x, start_y], cell_size)
+                if cell_n in cells:
+                    cells.remove(cell_n)
+                else:
+                    cells.add(cell_n)
             
             elif event.type == pygame.KEYDOWN:
                 add = {'w': (0, 1), 'a': (-1, 0), 's': (0, -1), 'd': (1, 0)}   # Keys that change the offset.
