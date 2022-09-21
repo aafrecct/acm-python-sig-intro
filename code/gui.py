@@ -86,11 +86,10 @@ def main(get_cells):
     global bg_color
 
     pygame.init()    # Start PyGame.
-    screen = pygame.display.set_mode((width, height), pygame.RESIZABLE)
+    screen = pygame.display.set_mode((width, height))
     cells = set()    # The coordinates of the cells are stored here.
 
     while True:
-        play = False # When true, the game will advance every >0.6 secs.
         start_x = int((width - (game_width * cell_size)) / 2)
         start_y = int((height - (game_height * cell_size)) / 2)
         
@@ -102,9 +101,9 @@ def main(get_cells):
             elif event.type == pygame.VIDEORESIZE:
                 # Center grid on window.
                 width, height = event.__dict__['size']
-                screen = pygame.display.set_mode((width, height), pygame.RESIZABLE)
+                screen = pygame.display.set_mode((width, height))
             
-            elif event.type == pygame.MOUSEBUTTONDOWN and not play:
+            elif event.type == pygame.MOUSEBUTTONDOWN:
                 # Add active cells if clicked.
                 pos = list(event.__dict__['pos'])
                 cell_n = get_cell_number(pos, [start_x, start_y], cell_size)
@@ -118,17 +117,9 @@ def main(get_cells):
                 if event.__dict__['unicode'] in add:
                     # Change the offset.
                     cell_offset = [cell_offset[i] + add[event.__dict__['unicode']][i] for i in [0, 1]]
-                elif event.__dict__['unicode'] == 'n' and not play:
+                elif event.__dict__['unicode'] == 'n':
                     # One game cycle.
                     game_cycle(mode, get_cells, cells)
-                elif event.__dict__['unicode'] == 'p':
-                    # Continous game cycles.
-                    play = not play 
-        
-        # If updating continously, update the game.
-        if play:
-            game_cycle(mode, get_cells, cells)
-            sleep(0.585)
         
         # Draw elements on screen.
         screen.fill(bg_color)

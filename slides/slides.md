@@ -4,13 +4,24 @@ paginate: true
 ---
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@600;700&family=Reem+Kufi+Ink&family=Source+Code+Pro:wght@500&display=swap');
+
 h1 {
     position: absolute !important;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: 700;
     font-size: 1.4em;
     top: 6%;
     left: 6%;
+}
+
+section {
+    background: #e9e9f0;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+code {
+    font-family: 'Source Code Pro', monospace; 
 }
 </style> 
 
@@ -23,7 +34,7 @@ h1 {
 
 Este taller tiene un repositorio en Github.
 
-Aunque probablemente no hayáis usado Git nunca, ¡os recomendamos que os familiaricéis con esta herramienta!
+Podeis clonar el repositorio con `git`, ¡os recomendamos que os familiaricéis con esta herramienta!
 
 Si no queréis podéis descargar el repositorio en un zip.
 
@@ -35,13 +46,16 @@ https://github.com/aafrecct/python-sig-intro
 
 La forma de instalar Python, varía dependiendo del sistema operativo. Tenéis las instrucciones en el README.
 
-A veces en Windows, Python no se añade al PATH. Una vez instalado, intentad ejecutar "python" desde la consola de comandos o PowerShell. Si os da un error, o se os abre la tienda de Windows, ¡decidlo!
+A veces en Windows, Python no se añade al PATH. 
+
+Una vez instalado, intentad ejecutar `python` desde la terminal o PowerShell. Si os da un error, o se os abre la tienda de Windows, ¡decidlo!
 
 ---
 
 # Intérprete
 
-"A los profesores de programación no les va a compilar el código en Python" -- S.Eibe
+> _"A los profesores de programación no les va a compilar el código en Python"_ 
+                                                                        S.Eibe
 
 Entre otras cosas, porque la implementación principal de Python es interpretada, no compilada (Aunque depende de a quien le preguntes).
 
@@ -57,47 +71,55 @@ Esto significa que lee el código "línea a línea" y lo va ejecutando, en vez d
 
 # Hello World
 
-![](./img/if-world.svg) 
+![](./img/if.svg) 
+
+---
+
+# More IO
+
+![](./img/io.svg)
 
 ---
 
 # Listas
 
-![](./img/for-world.svg) 
+![](./img/list.svg) 
 
 ---
 
 # Listas por comprehensión
 
-![](./img/list-comp.svg) 
-
----
-
-# Representación de matrices
-![](./img/matrix.svg)
+![](./img/listc.svg) 
 
 ---
 
 # Diccionarios
 
-![](./img/dict-games.svg) 
+![](./img/dict.svg) 
 
 ---
 
 # Tuplas
 
-![](./img/tuples-gens.svg) 
+![](./img/tupl.svg) 
 
 ---
 
 # Sets
 
-![](./img/sets-linebreaks.svg) 
+![](./img/sets.svg) 
 
 ---
 
 # Funciones
-![](./img/functions.svg)
+
+![](./img/func.svg)
+
+---
+
+# Objetos
+
+![](./img/objects.svg)
 
 ---
 
@@ -118,23 +140,11 @@ https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules
 
 ---
 
-# El juego de la vida
+# Siguientes charlas:
 
-En la carpeta 'code' tenéis tres archivos, queremos que escribais la función 'next_step' que hay dentro del archivo 'game.py'. Podéis definir otras funciones, variables, lo que queráis.
+- Más Python
+- Bots y APIs
+- Metaprogramación
+- Curso de Desarrollo Web (segundo semestre)
 
-Necesitamos que next_step reciba como parámetro o una matriz o un set de coordenadas, aplique las reglas del juego y luego lo devuelva.
 
-Las reglas que tenéis que implementar son las siguientes:
-
-https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules
-
----
-
-# Contacto
-
-Si no habéis terminado con el juego y quereis que alguien lo mire, podéis mandármelo por:
-
-Telegram: @bmcaos
-Email: bmartinenac+intropy@gmail.com
-
-¡¡¡Y uníos todos a ACM!!! 

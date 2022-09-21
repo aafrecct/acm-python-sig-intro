@@ -16,11 +16,7 @@ https://git-scm.com/
 *Como la gente de ACM es en su totalidad una manada de lobos feroces y tengo miedo de que en una de estas me coman un brazo o me arranquen la cabeza, esta sección esta editada para ser más corta, no mostrar ninguna preferencia entre Vim y Emacs, e incluir algún IDE de Python. A todo el mundo que ha hecho algún comentario: Os odio con todo mi ser.*
 Para seguir la practica sin dificultades, es necesario tener un editor de texto plano instalado o un IDE para Python.
 
-**Atom:** Facil, extensible, bonito, lento.
-
-https://atom.io/
-
-**VS Code**: Facil, extensible, no lo he usado nunca, lento, has de sacrificar a tu primer hijo a Bill Gates para usarlo.
+**VS Code**: Facil, extensible, lento, has de sacrificar a tu primer hijo a Bill Gates para usarlo.
 
 https://code.visualstudio.com/
 
@@ -41,22 +37,12 @@ https://neovim.io/    |    https://www.vim.org/
 Explicaremos qué hay que hacer para instalar Python en el propio taller, pero si quieres llevarlo hecho, te lo agradeceremos mucho. Sigue las instrucciones según tu sistema operativo:
 
 ### Windows
-Puedes encontrar la página de descargas aquí:
 
-https://www.python.org/downloads/
-
-Una vez descargado el instalador, es cuestión de seguir los pasos. Si no me equivoco, el propio instalador te da la opción de añadir Python al PATH, hacedlo, que si no, no se puede acceder desde la terminal.
+Python se puede instalar desde la Windows Store y probablemente sea la forma más comoda de hacerlo.
 
 ### MacOS
-A mi no me molesta Homebrew, es un package manager para MacOS:
 
-Lo podeis encontrar aquí: https://brew.sh/
-
-Y una vez instalado desde la terminar hacer:
-```
-brew install python
-```
-Pero estoy seguro de que se puede instalar de forma similar a como se hace en Windows.
+Podeis descargar python desde la página web oficial o usar: https://brew.sh/
 
 ### Linux
 Utilizad el package manager de vuestra distribución:
@@ -68,6 +54,10 @@ sudo apt install python3
 Para Arch / Manjaro:
 ```
 sudo pacman -S python
+```
+Para Fedora:
+```
+sudo dnf install python
 ```
 
 
